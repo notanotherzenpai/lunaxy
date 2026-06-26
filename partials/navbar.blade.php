@@ -1,5 +1,6 @@
 <header class="navbar">
     <div class="navbar-left">
+        <button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
         <h1>@yield('page-title', 'Dashboard')</h1>
     </div>
 
